@@ -1,0 +1,39 @@
+<!--this is a javascript class 2, as always i i will take notes inside the codes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+	
+	
+	
+</head>
+<body onload="window.alert('page is load succesfully')">
+
+<p><a href="https://www.google.com" target="_blank" id="mylink"> Google</a><p>
+<script>
+//selecting the element by ID attribute	
+     var link = document.getElementById("mylink");   /// here we are assignning the paragraph for the variable link using id selector 
+	 
+	 
+	 //getting the attributes values
+	 
+	 var href=link.getAttributes("href");  // here we are assingning the value of href attributes for the variable href
+	 document.write(href);   // prints: https://www.google.com
+	 document.write("<br>");
+	 
+	 var target= link.getAttribute("target");
+	 
+
+</script>
+
+
+
+<script src="bootstrap.js"></script>
+</body>
+
+</html>

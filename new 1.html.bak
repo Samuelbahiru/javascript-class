@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+	
+	
+	
+</head>
+<body>
+<script>
+var x=5;
+var y=10;
+var sum=x+y;
+document.write("hello world\n");
+document.write(sum);  // print variable value
+
+/* multi line comment*/
+//window.alert("sami")
+
+var name="samuel";
+var number=12;
+
+/// javascript is casesensative
+
+ /// now a days let repalced the var keyword
+ 
+let name="harry potter";
+
+/*
+identifier convention
+            we can start variable with _ @ and $ but not with numbers
+			keywords cannot be a variable name
+			it is case sensative
+
+*/
+
+
+
+/*
+operators
+
+x=y   // for assignment
+x==y  // for comaprsion equal
+x===y  // for comaring on both datatype and value
+
+*/
+
+
+/*
+javascript events
+
+1) onclick
+2)alert
+3)onkeydown
+
+
+
+*/
+
+
+document.getElementById("b1").inner HTML="onclick="alert('sami')";
+document.getElementById("b1").inner HTML="onmouseover="alert('sami')";
+
+
+
+</script>
+
+
+
+
+<script src="bootstrap.js"></script>
+<!--
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+-->
+
+<h1> Here is the datatype found in javascript</h1>
+<table class="table">
+</thead>
+	<tr> <br>
+	       <th> datatype</th> 
+		   <th> Description</th>
+		   <th> Example</th>
+	</tr>
+</thead>
+  <tbody>	
+	<tr> <br>
+	       <td> String</td> 
+		   <td> represents textual data</td>
+		   <td> 'hello', "helloworld" etc </td>
+	</tr>
+	
+	<tr>
+	       <td> number</td> 
+		   <td>an integer or a floating- point number</td>
+		   <td> 3, 3.234, 3e-2 etc</td>
+	</tr>
+	
+	<tr>
+	       <td>bigint</td>  
+		   <td> an inteager with arbitarary position </td>
+		   <td>  90000003030232032032 , 1n , etc</td>
+	</tr>
+	
+	<tr>
+	       <td>boolean </td> 
+		   <td> any of two values: true or false </td>
+		   <td>true and false</td>
+	</tr>
+	
+	<tr>
+	       <td> undefined</td> 
+		   <td> a datatype whose variable is not intalized</td>
+		   <td> let a;</td>
+	</tr>
+	
+	<tr>
+	       <td>null</td>  
+		   <td> denotes null value</td>
+		   <td> let a=null;</td>
+	</tr>
+	
+	<tr>
+	       <td>symbol</td>  
+		   <td> datatype whose instances are unique and immutable</td>
+		   <td> let value= symbol("hello");</td>
+	</tr>
+
+
+<tr>
+	       <td>object</td>  
+		   <td> key value </td>
+		   <td> let value= symbol("hello");</td>
+	</tr>
+
+</tbody>
+</table>
+<br>
+
+
+
+ <button type="button" style="background-color:orange;" onclick="alert('sami')"> click me </button>
+<button type="button" style="background-color:orange;" onmouseover="alert('sami')"> click me </button>
+
+<input type"text" onkeydown="alert('you have pressed key inside input box and text area')">
+
+
+<!--
+<button  id="b1" type="button" style="background-color:orange;" > click me </button>
+<button  id="b2" type="button" style="background-color:green > click me </button>
+-->
+
+
+
+
+
+
+
+</body>
+
+</html>
